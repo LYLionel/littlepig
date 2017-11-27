@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
 
-import { BrowserRouter as Router , Route, Link} from 'react-router-dom'
+import { BrowserRouter as Router , Route} from 'react-router-dom'
 
-import Index from '../pages/Index'
+import List from '../pages/List'
 class App extends Component{
     render(){
         return(
             <Router>
                 <div>
-                    <Route exact path="/" component={Index}></Route>
+                    <Route exact path="/" component={List}></Route>
                 </div>
             </Router>
         )
