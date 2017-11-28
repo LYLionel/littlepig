@@ -85,19 +85,12 @@ module.exports = function(proxy, allowedHost) {
       disableDotRule: true,
     },
     public: allowedHost,
-    proxy:{
-      '/api':{
-        target:'https://m.xiaozhu.com',
-        changeOrigin:true,
-        pathRewrite:{
-          '^/api':''
-        }
-      },
-      '/vip':{
-        target:'http://localhost:9002',
-        changeOrigin:true,
-        pathRewrite:{
-          '^/vip':''
+    proxy: {
+      '/api': {
+        target: 'http://localhost:9002',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/api': '' 
         }
       }
     },

@@ -9,7 +9,6 @@ import Search from '../comment/Search'
 
 import SearchTab from '../comment/SearchTab'
 
-import '../styles/Index.scss'
 
 class Index extends Component{
     render(){

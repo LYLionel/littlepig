@@ -10,7 +10,7 @@ class SearchTab extends React.Component{
         data: []
     }
     componentDidMount(){
-        axios.get('/vip/btnlist.php').then((res)=>{
+        axios.get('/api/btnlist.php').then((res)=>{
             console.log(res)
         })
     }

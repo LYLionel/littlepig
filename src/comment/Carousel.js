@@ -22,7 +22,7 @@ class carousel extends React.Component {
     })
   }
   componentDidMount() {
-    axios.get('/vip/list.php').then((res)=>{
+    axios.get('/api/list.php').then((res)=>{
       this.setState({
         data: res.data
       });
