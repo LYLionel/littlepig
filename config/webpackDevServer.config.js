@@ -85,7 +85,22 @@ module.exports = function(proxy, allowedHost) {
       disableDotRule: true,
     },
     public: allowedHost,
-    proxy,
+    proxy:{
+      '/api':{
+        target:'https://m.xiaozhu.com',
+        changeOrigin:true,
+        pathRewrite:{
+          '^/api':''
+        }
+      },
+      '/vip':{
+        target:'http://localhost:9002',
+        changeOrigin:true,
+        pathRewrite:{
+          '^/vip':''
+        }
+      }
+    },
     before(app) {
       // This lets us open files from the runtime error overlay.
       app.use(errorOverlayMiddleware());

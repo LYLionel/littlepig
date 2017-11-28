@@ -1,0 +1,84 @@
+.Search_tab{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    >div:nth-child(1){
+        text-align: center;
+        flex: 1;
+        padding-left: 25px;
+        font-size: 12px;
+        color:#666;
+    }
+    >div:nth-child(2){
+        text-align: center;
+        width: 2px;
+        height:18px;
+        background: #c2cacd;
+    }
+    >div:nth-child(3){
+        text-align: center;
+        flex:1;
+        padding-right: 25px;
+        font-size: 12px;
+        color:#666;
+    }
+    .country_active{
+        color:#ff4081 !important;
+    }
+   
+}
+.inputbox{
+    box-sizing: border-box;
+    padding:0 15px;
+    .cityinput{
+        padding-left: 10px;
+        border-radius: 5px 5px 0 0;
+        height: 40px;
+        width:100%;
+        background: #fff;
+        line-height: 40px;
+        border-bottom:1px solid #eeee;
+        span{
+            font-size: 14px;
+            color:#999;
+        }
+        img{
+            margin-top: 11px;
+            width:10px;
+            height: 17px;
+            float:right;
+            margin-right: 10px;
+        }
+    }
+    .dayinput{
+        padding-left: 10px;
+        height: 40px;
+        width:100%;
+        background: #fff;
+        line-height: 40px;
+        border-radius: 0 0 5px 5px;
+        span{
+            font-size: 14px;
+            color:#999;
+        }
+        img{
+            width:10px;
+            height: 17px;
+            margin-top: 11px;
+            float:right;
+            margin-right: 10px;
+        }
+    }
+    .btn_search{
+        display: block;
+        height: 44px;
+        margin: 10px;
+        background-color: #F05B72;
+        color: #FFF;
+        font-size: 16px;
+        text-align: center;
+        line-height: 44px;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+}
