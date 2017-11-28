@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import axios from 'axios'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import '../styles/List.scss'
 class Index extends Component{
     constructor(props){
         super(props)
