@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import * as actions from '../redux/action'
-import { connect } from 'react-redux'
+import {connect} from 'react-redux'
+import * as actions from '../redux/actions'
 
 // import {Link} from 'react-router'
 import Title from '../comment/Title'
@@ -11,40 +11,51 @@ import Search from '../comment/Search'
 
 import SearchTab from '../comment/SearchTab'
 
+import Footer from '../comment/Footer'
 
 class Index extends Component{
     constructor(props) {
         super(props)
-        this.goList = this.goList.bind(this)
+        // console.log(this.props)
+        // setTimeout(() => {
+        //     this.props.setName('ccc')
+        // }, 4000)
+        // this.props.setName('bbb')
+        this.changeCountry = this.changeCountry.bind(this)
     }
-    goList() {
-        this.props.history.push('/list')
+    changeCountry(con){
+        this.props.setCountry(con)
     }
     render(){
         return (
             <div id="indexbox">
                 <Title/>
                 <Carousel/>
-                <Search fun={this.goList}/>
+                <Search onCountry = {this.changeCountry}/>
                 <SearchTab/>
-                <button onClick={this.props.setA}>国家</button>
-                <div>A:{this.props.a}</div>
+                <Footer/>
             </div>
         )
     }
 }
 
-
 export default connect(
-    (state) => {
-        return {
-            a: state.country
+    (state)=>{
+        return{
+            a: state.country,
+            name: state.aaa.name
         }
     },
-    (dis) => {
+    (dispatch) => {
         return {
-            setA(){
-                actions.setCountry(dis,'waiguo')
+            setCountry: (con) =>{
+                actions.country(dispatch,con)
+            },
+            setName(name) {
+                dispatch({
+                    type: 'change',
+                    name
+                })
             }
         }
     }
