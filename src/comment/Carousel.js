@@ -64,7 +64,7 @@ class carousel extends React.Component {
         </Carousel>
         <div className="banner_text">
           {this.state.data.map((item,index)=>{
-           return index==this.state.itemindex ?  <p key="98762">{item.h5desc} <span>&yen;{item.price}/晚</span></p> : null           
+           return index === this.state.itemindex ?  <p key="98762">{item.h5desc} <span>&yen;{item.price}/晚</span></p> : null           
           })}
         </div>
       </WingBlank>

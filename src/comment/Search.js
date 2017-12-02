@@ -17,12 +17,14 @@ class Search extends React.Component{
             domestic: true,
             country : false
         })
+        this.props.onCountry('china')
     }
     Tabcountry(){
         this.setState({
             domestic: false,
             country : true
         })
+        this.props.onCountry('foreign')
     }
     render(){
         return (
