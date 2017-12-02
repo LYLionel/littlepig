@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import axios from 'axios'
-import * as actions from '../redux/action'
+import * as actions from '../redux/actions'
 import { connect } from 'react-redux'
 
 import '../styles/List.scss'
@@ -18,6 +18,7 @@ class List extends Component{
         }
         this.onChangeIpt = this.onChangeIpt.bind(this)
         this.head = this.head.bind(this)
+        this.city = localStorage.getItem('city')
         setTimeout(() => {
             let list = this.state.hotcity.map((item,index)=>item.cityName)
             let a = this.state.classifycity.map((item)=>{
@@ -26,7 +27,7 @@ class List extends Component{
             let b = []
             for(var i = 0; i<a.length;i++){
                 a[i].map((item)=>{
-                    b.push(item)
+                    return b.push(item)
                 })
             }
             let c = b.map((item)=>{
@@ -37,8 +38,18 @@ class List extends Component{
             console.log(this.data)
         }, 30);
     }
+
+    // throttle(method,context){
+    //     clearTimeout(timer);
+    //     let timer = setTimeout(() => {
+    //         method.call(context);
+    //     },500);
+    // }
+
     onChangeIpt(e){
         if(e.target.value.length > 0){
+            // let newTime = new Date().getTime()
+            
             let aaa = this.data.filter((item,index,arr) => {
                 if(item.toLowerCase().indexOf(e.target.value.toLowerCase()) !== -1 ){
                     return item
@@ -48,19 +59,23 @@ class List extends Component{
                 isList: true,
                 search: aaa
             })
-            let ddd = this.state.search.map((item)=>{return item})
         }else{
             this.setState({
                 isList: false
             })
         }
     }
+
     handleCity(id){
         this.setState({
             cityid: id
         })
-
+        localStorage.setItem('city',id)
+        this.city = ''
+        this.props.setCity(id)
+        this.props.history.push('/')
     }
+
     handleUl(id){
         if (id === this.state.ulid) {
             this.setState({
@@ -72,10 +87,12 @@ class List extends Component{
             }) 
         }
     }
+
     head() {
         // this.props.history.push('/city')
         window.history.back()
     }
+
     render(){
         var that = this
         const isList = this.state.isList,
@@ -107,8 +124,8 @@ class List extends Component{
                                     {
                                         this.state.hotcity.map((item,index) => {
                                             return <li key={item.cityId} onClick={()=>{
-                                                this.handleCity(item.cityId)
-                                            }} className={item.cityId===this.state.cityid ? "hotcityli clickli" : "hotcityli" }>{item.cityName}</li>
+                                                this.handleCity(item.cityName)
+                                            }} className={ item.cityName === this.city ? "hotcityli clickli" : (item.cityName === this.state.cityid ? "hotcityli clickli" : "hotcityli") }>{item.cityName}</li>
                                         })
                                     }
                                 </ul>
@@ -116,7 +133,7 @@ class List extends Component{
                                 <ul className="search_ul" >
                                     {
                                         this.state.classifycity.map((item,index) => {
-                                            return <div>
+                                            return <div key={index}>
                                                         <li key={item.firstId} onClick={()=>{
                                                                 this.handleUl(item.firstId)
                                                             }} className="classifycityli">
@@ -127,8 +144,8 @@ class List extends Component{
                                                                 {
                                                                     item.cityname.map((val,ind) => {
                                                                         return <li key={val.cityId} onClick={()=>{
-                                                                            that.handleCity(val.cityId)
-                                                                        }} className={val.cityId===that.state.cityid ? "list listli" : "list"}>{val.cityName}</li>
+                                                                            that.handleCity(val.cityName)
+                                                                        }} className={val.cityName === this.city ? 'list listli' : (val.cityName === that.state.cityid ? "list listli" : "list")}>{val.cityName}</li>
                                                                     })
                                                                 }
                                                             </ul>
@@ -144,26 +161,39 @@ class List extends Component{
         )
     }
     componentDidMount(){
-        axios.get('/api/hotcity.php').then((res) => {
-            this.setState({
-                hotcity: res.data.content
-            })
-        });
         axios.get('/api/classifycity.php').then((res) => {
             this.setState({
                 classifycity: res.data
             })
         })
+        if(this.props.country === 'china'){
+            axios.get('/api/hotcity.php').then((res) => {
+                this.setState({
+                    hotcity: res.data.content
+                })
+            });
+        }else{
+            axios.get('/api/foreign.php').then((res)=>{
+                this.setState({
+                    hotcity: res.data.content
+                })
+            })
+        }
+        
     }
 }
 
 export default connect(
     (state) => {
         return {
-            // country: this.state.country
+            country: state.country
         }
     },
-    () => {
-
+    (dispatch) => {
+        return {
+            setCity(id) {
+                actions.city(dispatch,id) 
+            }
+        }
     }
 )(List)
