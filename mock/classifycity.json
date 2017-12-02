@@ -1,6 +1,7 @@
 [
     {
         "firstId": "A",
+        "secondId": "A",        
         "cityname": [{
             "cityId": "24",
             "cityName": "安顺",
@@ -71,69 +72,100 @@
     },
     {
         "firstId": "B",
+        "secondId": "B",        
         "cityname": [{
-            "cityId": "24",
-            "cityName": "安顺",
+            "cityId": "35",
+            "cityName": "保定",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "25",
-            "cityName": "鞍山",
+            "cityId": "1",
+            "cityName": "北京",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "26",
-            "cityName": "安庆",
+            "cityId": "36",
+            "cityName": "白山",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "27",
-            "cityName": "安康",
+            "cityId": "37",
+            "cityName": "滨州",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "28",
-            "cityName": "阿勒泰",
+            "cityId": "38",
+            "cityName": "蚌埠",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "29",
-            "cityName": "阿坝",
+            "cityId": "39",
+            "cityName": "百色",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "30",
-            "cityName": "阿拉善",
+            "cityId": "40",
+            "cityName": "包头",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "31",
-            "cityName": "澳门",
+            "cityId": "41",
+            "cityName": "宝鸡",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "32",
-            "cityName": "阿拉尔",
+            "cityId": "42",
+            "cityName": "宝山",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "33",
-            "cityName": "安定",
+            "cityId": "43",
+            "cityName": "巴音郭楞",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "25",
-            "cityName": "安阳",
+            "cityId": "44",
+            "cityName": "巴中",
+            "domain": "as",
+            "timeZone": "+08:00",
+            "nationId": "0"
+        },{
+            "cityId": "45",
+            "cityName": "本溪",
+            "domain": "as",
+            "timeZone": "+08:00",
+            "nationId": "0"
+        },{
+            "cityId": "46",
+            "cityName": "亳州",
+            "domain": "as",
+            "timeZone": "+08:00",
+            "nationId": "0"
+        },{
+            "cityId": "47",
+            "cityName": "北海",
+            "domain": "as",
+            "timeZone": "+08:00",
+            "nationId": "0"
+        },{
+            "cityId": "48",
+            "cityName": "白沙",
+            "domain": "as",
+            "timeZone": "+08:00",
+            "nationId": "0"
+        },{
+            "cityId": "49",
+            "cityName": "保亭",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
@@ -141,767 +173,88 @@
     },
     {
         "firstId": "C",
+        "secondId": "C",
         "cityname": [{
-            "cityId": "24",
-            "cityName": "安顺",
+            "cityId": "4",
+            "cityName": "成都",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "25",
-            "cityName": "鞍山",
+            "cityId": "9",
+            "cityName": "重庆",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "26",
-            "cityName": "安庆",
+            "cityId": "22",
+            "cityName": "长沙",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "27",
-            "cityName": "安康",
+            "cityId": "50",
+            "cityName": "承德",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "28",
-            "cityName": "阿勒泰",
+            "cityId": "51",
+            "cityName": "沧州",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "29",
-            "cityName": "阿坝",
+            "cityId": "52",
+            "cityName": "常州",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "30",
-            "cityName": "阿拉善",
+            "cityId": "53",
+            "cityName": "长春",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "31",
-            "cityName": "澳门",
+            "cityId": "54",
+            "cityName": "滁州",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "32",
-            "cityName": "阿拉尔",
+            "cityId": "55",
+            "cityName": "巢湖",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "33",
-            "cityName": "安定",
+            "cityId": "56",
+            "cityName": "赤峰",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
-        }]
-    },
-    {
-        "firstId": "D",
-        "cityname": [{
-            "cityId": "24",
-            "cityName": "安顺",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "25",
-            "cityName": "鞍山",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "26",
-            "cityName": "安庆",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "27",
-            "cityName": "安康",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "28",
-            "cityName": "阿勒泰",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "29",
-            "cityName": "阿坝",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "30",
-            "cityName": "阿拉善",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "31",
-            "cityName": "澳门",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "32",
-            "cityName": "阿拉尔",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "33",
-            "cityName": "安定",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        }]
-    },
-    {
-        "firstId": "E",
-        "cityname": [{
-            "cityId": "24",
-            "cityName": "安顺",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "25",
-            "cityName": "鞍山",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "26",
-            "cityName": "安庆",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "27",
-            "cityName": "安康",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "28",
-            "cityName": "阿勒泰",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "29",
-            "cityName": "阿坝",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "30",
-            "cityName": "阿拉善",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "31",
-            "cityName": "澳门",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "32",
-            "cityName": "阿拉尔",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "33",
-            "cityName": "安定",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        }]
-    },
-    {
-        "firstId": "F",
-        "cityname": [{
-            "cityId": "24",
-            "cityName": "安顺",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "25",
-            "cityName": "鞍山",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "26",
-            "cityName": "安庆",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "27",
-            "cityName": "安康",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "28",
-            "cityName": "阿勒泰",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "29",
-            "cityName": "阿坝",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "30",
-            "cityName": "阿拉善",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "31",
-            "cityName": "澳门",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "32",
-            "cityName": "阿拉尔",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "33",
-            "cityName": "安定",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        }]
-    },
-    {
-        "firstId": "G",
-        "cityname": [{
-            "cityId": "24",
-            "cityName": "安顺",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "25",
-            "cityName": "鞍山",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "26",
-            "cityName": "安庆",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "27",
-            "cityName": "安康",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "28",
-            "cityName": "阿勒泰",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "29",
-            "cityName": "阿坝",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "30",
-            "cityName": "阿拉善",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "31",
-            "cityName": "澳门",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "32",
-            "cityName": "阿拉尔",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "33",
-            "cityName": "安定",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        }]
-    },
-    {
-        "firstId": "H",
-        "cityname": [{
-            "cityId": "24",
-            "cityName": "安顺",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "25",
-            "cityName": "鞍山",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "26",
-            "cityName": "安庆",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "27",
-            "cityName": "安康",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "28",
-            "cityName": "阿勒泰",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "29",
-            "cityName": "阿坝",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "30",
-            "cityName": "阿拉善",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "31",
-            "cityName": "澳门",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "32",
-            "cityName": "阿拉尔",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "33",
-            "cityName": "安定",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        }]
-    },
-    {
-        "firstId": "J",
-        "cityname": [{
-            "cityId": "24",
-            "cityName": "安顺",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "25",
-            "cityName": "鞍山",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "26",
-            "cityName": "安庆",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "27",
-            "cityName": "安康",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "28",
-            "cityName": "阿勒泰",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "29",
-            "cityName": "阿坝",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "30",
-            "cityName": "阿拉善",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "31",
-            "cityName": "澳门",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "32",
-            "cityName": "阿拉尔",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "33",
-            "cityName": "安定",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        }]
-    },
-    {
-        "firstId": "K",
-        "cityname": [{
-            "cityId": "24",
-            "cityName": "安顺",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "25",
-            "cityName": "鞍山",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "26",
-            "cityName": "安庆",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "27",
-            "cityName": "安康",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "28",
-            "cityName": "阿勒泰",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "29",
-            "cityName": "阿坝",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "30",
-            "cityName": "阿拉善",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "31",
-            "cityName": "澳门",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "32",
-            "cityName": "阿拉尔",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "33",
-            "cityName": "安定",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        }]
-    },
-    {
-        "firstId": "L",
-        "cityname": [{
-            "cityId": "24",
-            "cityName": "安顺",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "25",
-            "cityName": "鞍山",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "26",
-            "cityName": "安庆",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "27",
-            "cityName": "安康",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "28",
-            "cityName": "阿勒泰",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "29",
-            "cityName": "阿坝",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "30",
-            "cityName": "阿拉善",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "31",
-            "cityName": "澳门",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "32",
-            "cityName": "阿拉尔",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "33",
-            "cityName": "安定",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        }]
-    },
-    {
-        "firstId": "M",
-        "cityname": [{
-            "cityId": "24",
-            "cityName": "安顺",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "25",
-            "cityName": "鞍山",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "26",
-            "cityName": "安庆",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "27",
-            "cityName": "安康",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "28",
-            "cityName": "阿勒泰",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "29",
-            "cityName": "阿坝",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "30",
-            "cityName": "阿拉善",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "31",
-            "cityName": "澳门",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "32",
-            "cityName": "阿拉尔",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "33",
-            "cityName": "安定",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        }]
-    },
-    {
-        "firstId": "N",
-        "cityname": [{
-            "cityId": "24",
-            "cityName": "安顺",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "25",
-            "cityName": "鞍山",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "26",
-            "cityName": "安庆",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "27",
-            "cityName": "安康",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "28",
-            "cityName": "阿勒泰",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "29",
-            "cityName": "阿坝",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "30",
-            "cityName": "阿拉善",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "31",
-            "cityName": "澳门",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "32",
-            "cityName": "阿拉尔",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "33",
-            "cityName": "安定",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        }]
-    },
-    {
-        "firstId": "P",
-        "cityname": [{
-            "cityId": "24",
-            "cityName": "安顺",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "25",
-            "cityName": "鞍山",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "26",
-            "cityName": "安庆",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "27",
-            "cityName": "安康",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "28",
-            "cityName": "阿勒泰",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
-        },{
-            "cityId": "29",
-            "cityName": "阿坝",
-            "domain": "as",
-            "timeZone": "+08:00",
-            "nationId": "0"
         },{
-            "cityId": "30",
-            "cityName": "阿拉善",
+            "cityId": "57",
+            "cityName": "长治",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "31",
-            "cityName": "澳门",
+            "cityId": "58",
+            "cityName": "常德",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "32",
-            "cityName": "阿拉尔",
+            "cityId": "59",
+            "cityName": "郴州",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
         },{
-            "cityId": "33",
-            "cityName": "安定",
+            "cityId": "60",
+            "cityName": "楚雄",
             "domain": "as",
             "timeZone": "+08:00",
             "nationId": "0"
