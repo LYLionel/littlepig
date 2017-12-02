@@ -6,6 +6,9 @@ import Index from '../pages/Index'
 import City from '../pages/City'
 import List from '../pages/List'
 class App extends Component{
+    constructor(props) {
+        super(props)
+    }
     render(){
         return(
             <Router>
