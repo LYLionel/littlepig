@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../styles/Title.scss'
-class Title extends React.Component{
+class Title extends Component{
     render(){
         return(
             <div className="logo_box">

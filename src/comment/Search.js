@@ -1,6 +1,5 @@
 import React  from 'react'
 import '../styles/Search.scss'
-import { BrowserRouter as Router , Switch , Route, NavLink} from 'react-router-dom'
 
 class Search extends React.Component{
     constructor(props){

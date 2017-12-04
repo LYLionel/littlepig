@@ -14,7 +14,6 @@ class SearchTab extends React.Component{
     }
     componentDidMount(){
         axios.get('/api/btnlist.php').then((res)=>{
-            console.log(res)
            this.setState({
                 data:res.data,
                 datatext:res.data[2].content,

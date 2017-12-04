@@ -1,8 +1,12 @@
-body,p,div{
+body,p,div,h3,h4{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 div,p{
   box-sizing:border-box;
+}
+#allmap{
+  width: 100px;
+  height:100px;
 }
