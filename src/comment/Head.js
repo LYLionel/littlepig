@@ -2,10 +2,6 @@ import React, {Component} from 'react'
 
 import '../styles/Head.scss'
 class Head extends Component{
-    constructor(props) {
-        super(props)
-    
-    }
     back() {
         // history.back()
         this.props.fun()

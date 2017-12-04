@@ -1,7 +1,14 @@
 export const country = (dispath,data) =>{
-    console.log(data)
    const action = {
         type: 'country',
+        payload: data
+    }
+    dispath(action)
+}
+export const city = (dispath,data) => {
+    console.log(data)
+    const action = {
+        type: 'city',
         payload: data
     }
     dispath(action)

@@ -4,9 +4,6 @@ import axios from "axios"
 
 import '../styles/SearchTab.scss'
 class SearchTab extends React.Component{
-    constructor(props){
-        super(props)
-    }
     state = {
         data: [],
         datatext: '',
