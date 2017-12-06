@@ -22,16 +22,22 @@ class Index extends Component{
         // }, 4000)
         // this.props.setName('bbb')
         this.changeCountry = this.changeCountry.bind(this)
+        this.gotoList = this.gotoList.bind(this)
     }
     changeCountry(con){
         this.props.setCountry(con)
+       
     }
+    gotoList(){
+        this.props.history.push('/list')
+    }
+
     render(){
         return (
             <div id="indexbox">
                 <Title/>
                 <Carousel/>
-                <Search onCountry = {this.changeCountry}/>
+                <Search onCountry = {this.changeCountry} fun={this.gotoList}/>
                 <SearchTab/>
                 <Footer/>
             </div>
