@@ -10,7 +10,7 @@ class Search extends React.Component{
         }
         this.Tabdomestic = this.Tabdomestic.bind(this)
         this.Tabcountry = this.Tabcountry.bind(this)
-        this.gotoList = this.gotoList.bind(this)
+         this.gotoList = this.gotoList.bind(this)
       }
     
     Tabdomestic(){
