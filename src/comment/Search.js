@@ -42,7 +42,7 @@ class Search extends React.Component{
                 <div className={this.state.country ? 'country_active':''} onClick={this.Tabcountry}>国外</div>
             </div>
             <div className="inputbox">
-                    <div className="cityinput" onClick={this.gotoList}>
+                    <div className="cityinput"  onClick={this.gotoList}>
                         <span>城市或目的地</span>
                         <img src="https://m.xiaozhu.com/v_dcedf/images/right_go.png" alt=""/>
                     </div>
