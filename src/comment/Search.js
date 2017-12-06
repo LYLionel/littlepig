@@ -26,6 +26,12 @@ class Search extends React.Component{
         })
         this.props.onCountry('foreign')
     }
+    gotoList() {
+        this.props.fun()
+    }
+    componentDidMount(){
+        console.log(this.props.fun)
+    }
     render(){
         return (
             <div>
