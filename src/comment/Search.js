@@ -30,6 +30,9 @@ class Search extends React.Component{
     gotoList() {
         this.props.fun()
     }
+    componentDidMount(){
+        console.log(this.props.fun)
+    }
     render(){
         return (
             <div>
