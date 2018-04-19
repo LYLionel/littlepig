@@ -160,20 +160,20 @@ class List extends Component{
             </div>
         )
     }
-    componentDidMount(){
-        axios.get('/api/classifycity.php').then((res) => {
+    async componentDidMount(){
+        await axios.get('/api/classifycity.php').then((res) => {
             this.setState({
                 classifycity: res.data
             })
         })
         if(this.props.country === 'china'){
-            axios.get('/api/hotcity.php').then((res) => {
+            await axios.get('/api/hotcity.php').then((res) => {
                 this.setState({
                     hotcity: res.data.content
                 })
             });
         }else{
-            axios.get('/api/foreign.php').then((res)=>{
+            await axios.get('/api/foreign.php').then((res)=>{
                 this.setState({
                     hotcity: res.data.content
                 })
